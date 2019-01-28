@@ -21,7 +21,7 @@
        $username = $request->rollnumber;
       
         if ($username != "") {
-            echo '{"dept":"Information Technology","rollNumber":"17UITE021","regNumber":"920417205019","studName":"MALIK CHANDRA PANDIAN.T","dob":"19.06.1999","gender":"M","addr":"163\/2\/176,ALAMARAM STREET,SATHANKUDI,THIRUMANGALAM TALUKA,MADURAI-625 706,MADURAI","fathername":"A.THANGA PANDIAN","f_phno":"9865637836","mothername":"C.SEETHA LAKSHMI","m_phno":"8144700000","s_phno":"9543200000","email":"17UITE021@kamarajengg.edu.in","mentor":"Ms.P. Kaviya","chair_person":"Mrs.M.Chengathir Selvi"}';
+            echo '[{"dept":"Information Technology","rollNumber":"17UITE021","regNumber":"920417205019","studName":"MALIK CHANDRA PANDIAN.T","dob":"19.06.1999","gender":"M","addr":"163\/2\/176,ALAMARAM STREET,SATHANKUDI,THIRUMANGALAM TALUKA,MADURAI-625 706,MADURAI","fathername":"A.THANGA PANDIAN","f_phno":"9865637836","mothername":"C.SEETHA LAKSHMI","m_phno":"8144700000","s_phno":"9543200000","email":"17UITE021@kamarajengg.edu.in","mentor":"Ms.P. Kaviya","chair_person":"Mrs.M.Chengathir Selvi"}]';
            // print $postdata;
         }
         else {
