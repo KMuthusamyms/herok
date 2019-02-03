@@ -22,9 +22,9 @@
       
         if ($username != "") {
             echo '[
-{"day":"Monday","Ihr":"MA8391","IIhr":"CS8451","IIIhr":"CS8461-CS848","IVhr":"CS8461-CS8481","Vhr":"CS8461-CS8481","VIhr":"CS8461-CS8481","VIIhr":"GE8291"},
-{"day":"Tuesday","Ihr":"CS8451","IIhr":"CS8492-GE8291","IIIhr":"HS8461-HS8461","IVhr":"HS8461-HS8461","Vhr":"CS8492","VIhr":"CS8493","VIIhr":"MA8391"},
-{"day":"Wednesday","Ihr":"CS8491","IIhr":"MA8391","IIIhr":"CS8461-CS8481","IVhr":"CS8461-CS8481","Vhr":"CS8461-CS8481","VIhr":"CS8461-CS8481","VIIhr":"Counselling"}
+{"day":"Monday","Ihr":"MA8391","IIhr":"CS8451","IIIhr":"CS8461,CS848","IVhr":"CS8461(2),CS8481(1)","Vhr":"CS8461(2),CS8481(1)","VIhr":"CS8461(2),CS8481(1)","VIIhr":"GE8291"},
+{"day":"Tuesday","Ihr":"CS8451","IIhr":"CS8492,GE8291","IIIhr":"HS8461,HS8461(2)","IVhr":"HS8461(1),HS8461(2)","Vhr":"CS8492","VIhr":"CS8493","VIIhr":"MA8391"},
+{"day":"Wednesday","Ihr":"CS8491","IIhr":"MA8391","IIIhr":"CS8461(1),CS8481(2)","IVhr":"CS8461(1),CS8481(2)","Vhr":"CS8461(1),CS8481(2)","VIhr":"CS8461(1),CS8481(2)","VIIhr":"Counselling"},
 {"day":"Thursday","Ihr":"CS8492","IIhr":"GE8291","IIIhr":"CS8493","IVhr":"CS8491","Vhr":"CS8451","VIhr":"MA8391","VIIhr":"CS8493"},
 {"day":"Friday","Ihr":"CS8493","IIhr":"CS8491","IIIhr":"CS8492","IVhr":"MA8391","Vhr":"GE8291","VIhr":"CS8451","VIIhr":"CS8491"}
 ]';
