@@ -21,7 +21,7 @@
        $username = $request->rollnumber;
       
         if ($username != "") {
-            echo '[{"subcode":"EC6018","subname":"Multimedia Compression and Communication","test":"12","assign":"80"},{"subcode":"GE6757","subname":"Total Quality Management","test":"2","assign":"0"}]';
+            echo '[{"subcode":"EC6018","subname":"Multimedia Compression and Communication","test":12,"assign":80},{"subcode":"GE6757","subname":"Total Quality Management","test":2,"assign":0}]';
            // print $postdata;
         }
         else {
